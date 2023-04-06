@@ -1,0 +1,11 @@
+{
+    "name": "bolao/classe",
+    "autoload": {
+        "psr-4": {
+            "Bolao\\Classe\\": "src"
+        }
+    },
+    "require_once": {
+        "league/plates": "^3.5"
+    }
+}
