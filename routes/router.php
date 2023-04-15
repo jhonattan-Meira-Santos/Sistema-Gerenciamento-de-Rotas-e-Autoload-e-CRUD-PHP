@@ -9,12 +9,12 @@ function load(string $controller, string $action) {
         }
         
         $controllerInstance = new $controllerNamespace();
-    
+       
         if(! method_exists($controllerInstance, $action)) {
             throw new Exception("O método {$action} não existe no controller {$controller}");
         }
+        var_dump($controllerInstance);exit;
     
-        $controllerInstance->$action((object) $_REQUEST);
     } catch (Exception $e) {
         echo $e->getMessage();
     }
@@ -22,12 +22,10 @@ function load(string $controller, string $action) {
 
 $routes = [
     'GET' => [
-        '/' => load("HomeController", "index"),
-        '/index' => load("HomeController", "index"),
-        // '/' => fn() => load("HomeController", "index"),
+        '/' => fn() => load("HomeController", "index"),
+        '/index' => fn() => load("HomeController", "index"),
     ],
     'POST' => [
-        // 'index' => load("controllers", "index"),
         'index' => fn() => load("HomeController", "index"),
     ]
 ];

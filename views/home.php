@@ -1,7 +1,5 @@
 <?php $this->layout("index") ?>
 
-<?php require_once("./includes/cabecalho.php"); ?>
-
 <main class="main-index">
     <section class="section-index">
         <article>
@@ -112,5 +110,3 @@
     </section>
 
 </main>
-
-<?php require_once("./includes/footer.php"); ?>

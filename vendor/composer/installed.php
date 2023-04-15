@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'bolao/classe',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '3e2097a8215144997ae215a3082a583957b65a85',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,13 +11,13 @@
     ),
     'versions' => array(
         'bolao/classe' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '3e2097a8215144997ae215a3082a583957b65a85',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'dev_require_oncement' => false,
+            'dev_requirement' => false,
         ),
         'league/plates' => array(
             'pretty_version' => 'v3.5.0',
@@ -26,7 +26,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../league/plates',
             'aliases' => array(),
-            'dev_require_oncement' => false,
+            'dev_requirement' => false,
         ),
     ),
 );

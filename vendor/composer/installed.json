@@ -15,10 +15,10 @@
                 "reference": "a6a3238e46c6e19af7318fdc36bfbe49b0620231",
                 "shasum": ""
             },
-            "require_once": {
+            "require": {
                 "php": "^7.0|^8.0"
             },
-            "require_once-dev": {
+            "require-dev": {
                 "mikey179/vfsstream": "^1.6",
                 "phpunit/phpunit": "^9.5",
                 "squizlabs/php_codesniffer": "^3.5"

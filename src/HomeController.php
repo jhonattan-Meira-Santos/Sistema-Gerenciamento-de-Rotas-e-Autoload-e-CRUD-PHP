@@ -1,8 +1,8 @@
 <?php
 
-namespace Bolao\Classe\HomeController;
+namespace Bolao\Classe;
 
-use Bolao\Classe\Controller\Controller;
+use Bolao\Classe\Controller;
 
 class HomeController
 {

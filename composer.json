@@ -2,10 +2,16 @@
     "name": "bolao/classe",
     "autoload": {
         "psr-4": {
-            "Bolao\\Classe\\": "src"
+            "Bolao\\Classe\\": "src/"
         }
     },
-    "require_once": {
+    "authors": [
+        {
+            "name": "Jhonattan Meira dos Santos",
+            "email": "jhonattantecinf@gmail.com"
+        }
+    ],
+    "require": {
         "league/plates": "^3.5"
     }
 }
